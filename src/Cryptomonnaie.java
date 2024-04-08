@@ -6,6 +6,7 @@ public class Cryptomonnaie{
         this.nom = nom;
         this.valeurDeJeton = valeurDeJeton;
     }
+    
     public String getNom() {
         return nom;
     }
@@ -19,4 +20,3 @@ public class Cryptomonnaie{
         return String.format("%5s",nom) + ":" + String.format("%10.1f",valeurDeJeton);
     }
 }
-
